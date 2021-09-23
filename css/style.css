@@ -69,7 +69,7 @@
 
 #home::before {
   content: "";
-  background: url("./bg.jpg") no-repeat center center/cover;
+  background: url("../img/bg.jpg") no-repeat center center/cover;
   position: absolute;
   height: 100%;
   top: 0;
@@ -92,7 +92,7 @@
 
 .wrapper {
   display: flex;
-  background: image("./bg.jpg");
+  background: image("../img/bg.jpg");
 }
 .wrapper .static-txt {
   color: #524130;
@@ -206,7 +206,7 @@
 #client-section::before {
   content: "";
   position: absolute;
-  background: url("./bg2.jpg");
+  background: url("../img/bg2.jpg");
   width: 100%;
   height: 90%;
   z-index: -1;
